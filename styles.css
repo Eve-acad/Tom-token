@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%) contrast(90%); /* Adjust these values for emphasis */
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Nova Square', sans-serif;
+    font-size: 4em; /* Larger font size */
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Nova Square', sans-serif;
+    font-size: 2.5em; /* Larger font size */
+    margin-bottom: 20px; /* Increased spacing */
+}
+
+p {
+    font-family: 'Cardo', serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px; /* Increased spacing */
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: underline 0.3s ease; /* Add transition effect */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #000000; /* Button text color */
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px; /* Border radius for smooth corners */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+#kissYourselfButton {
+    background-color: rgba(255, 255, 255, 0.2); /* Same as the background circle */
+    color: white; /* Button text color */
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+
+#kissYourselfButton:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Change color on hover */
+}
+
