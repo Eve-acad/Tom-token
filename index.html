@@ -6,7 +6,7 @@
     <title>$TOM on SOL</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Crimson+Text&family=Montserrat:ital,wght@0,500;0,600;1,100&family=Nova+Square&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Crimson+Text&family=Montserrat:ital,wght@0,500;0,600;1,100&family=Open+Sans&family=Playfair+Display:wght@500&family=Press+Start+2P&family=Sigmar&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/jpg" href="/Icon.jpg"/>
@@ -39,14 +39,14 @@
             <h1 id="tomText">$TOM</h1>
             <img id="popupImage" src="Tom.png" alt="Popup Image">
         </div>
-        <h2>Tom on Sol</h2>
+
         <p>
-            MEOW MEOWWW MEOWWWWWWWWW
+            Tom is an adult bluish-grey anthropomorphic cat with white colors on his belly, mouth hands, feet & tail. His eyes have yellow & green colors with white found between his two eyes. Tom is possibly either a British shorthair or an Russian Grayish-Blue cat.
         </p>
         <div id="socialButtons">
             <a href='#'><button><i class="fab fa-twitter"></i></button></a>
             <a href='#'><button id="kissYourselfButton">Buy Your $TOM</button></a>
-            <a href='#'><button><i class="fab fa-telegram"></i></button></a>
+            <a href='https://t.me/tomonsolana'><button><i class="fab fa-telegram"></i></button></a>
         </div>
     </div>
 
@@ -64,20 +64,6 @@
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
 
-        // Create dynamic structure (you can customize this)
-        function drawDynamicStructure() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-            // Draw dynamic elements
-            const circleRadius = Math.min(canvas.width, canvas.height) / 2.5; // Adjust the radius as needed
-            ctx.beginPath();
-            ctx.arc(canvas.width / 2, canvas.height / 2, circleRadius, 0, 2 * Math.PI);
-            ctx.fillStyle = 'rgba(255, 255, 255, 0.2)'; // Adjust the opacity (last value) as needed
-            ctx.fill();
-            ctx.lineWidth = 5;
-            ctx.strokeStyle = 'rgba(255, 255, 255, 0.3)';
-            ctx.stroke();
-        }
 
         // Update canvas on window resize
         window.addEventListener('resize', () => {

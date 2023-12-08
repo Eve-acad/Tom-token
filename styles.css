@@ -24,9 +24,9 @@ canvas {
 }
 
 h1 {
-    font-family: 'Nova Square', sans-serif;
+    font-family: 'Sigmar';
     font-size: 4em; /* Larger font size */
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
 
 h2 {
@@ -47,7 +47,7 @@ p {
 #links {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 a {
